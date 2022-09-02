@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+}
+h2{
+    position: relative;
+    font-size: 30px;
+}
+.cart{
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    background-color: rgba(203, 203, 207, 0.977);
+}
+
+.quantity{
+    padding: 5px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.addCart{
+    text-decoration: none;
+    color: red;
+}
+h3{
+    margin: 2px;;
+}
